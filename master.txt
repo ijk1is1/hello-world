@@ -2,3 +2,63 @@ The second day of using git.Have a good time in holidays.
 
 2018-6-18
 The third day of using git.
+2018-6-19
+The fourth day of using git.
+2018-6-20
+The fifth day of using git.Chapter 11.
+ES6.
+2018-6-21
+The sixth day of using git.Chapter 19?
+function extent.array.es6.
+22 plan
+Chap5， Interator。
+6-22
+A week passed.
+23 plan
+Chap 7 , 17, react.
+6-23
+A new day.
+Chap20.pm.
+24plan Chap20 continue.
+wan ming.
+
+6-24
+before 11am.Chap20.
+6-25
+8,9.react.
+6-26
+E-commerce work:uml,etc Chap18.react
+6-27
+plan : react ...
+6-28
+No entertainment!
+There are lots of crossing in life.
+Hold your heart.
+start
+
+6-29
+Today,no record.
+study,
+no luanxiang.
+gaibian.
+
+6-30
+plan: hold your heart.
+
+nuli.
+
+7-01
+a new day.
+start.
+2018-07-01 08:00:49
+react-native start...
+UI has controlled with data.
+Component's bujv,actor,style.import module,export {}, .
+Box,flexbox.
+padding, border , margin.
+2018-07-01 21:57:35.
+
+before 4/7.
+js 
+
+

@@ -1,0 +1,64 @@
+数组扩展运算符
+...
+1，将数组作为参数传入函数，取代apply。
+2，字符串，转为数组。
+3，数组的复制。
+4，数组的合并
+const a1 = [1, 2];
+// 写法一
+const a2 = [...a1];
+// 写法二
+const [...a2] = a1;
+
+const a1 = [{ foo: 1 }];
+const a2 = [{ bar: 2 }];
+
+const a3 = a1.concat(a2);
+const a4 = [...a1, ...a2];
+
+a3[0] === a1[0] // true
+a4[0] === a1[0] // true
+浅拷贝，
+5，
+扩展运算符内部调用的是数据结构的 Iterator 接口，因此只要具有 Iterator 接口的对象，都可以使用扩展运算符，比如 Map 结构。
+数组
+Array.from()
+
+扩展运算符背后调用的是遍历器接口（Symbol.iterator），如果一个对象没有部署这个接口，就无法转换。Array.from方法还支持类似数组的对象。所谓类似数组的对象，本质特征只有一点，即必须有length属性。因此，任何有length属性的对象，都可以通过Array.from方法转为数组，而此时扩展运算符就无法转换。
+接收第二个参数
+Array.from([1,2,3],(x) =>x*x)
+
+Array.of()
+Array.of总是返回参数值组成的数组。如果没有参数，就返回一个空数组。
+
+fill()
+使用给定值填充数组
+
+for (let [index, elem] of ['a', 'b'].entries()) {
+  console.log(index, elem);
+}
+// 0 "a"
+// 1 "b"
+
+数组的includes()方法，
+和map结构 的 has()，查找键名，set结构 的has，查找值。
+
+ES6明确将空位转为 undefined。避免出现空位。
+
+对象
+Object.js()
+
+Symbol
+ES6 引入了一种新的原始数据类型Symbol，表示独一无二的值。它是 JavaScript 语言的第七种数据类型，前六种是：undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。
+
+Symbol函数的参数只是表示对当前 Symbol 值的描述，因此相同参数的Symbol函数的返回值是不相等的。
+
+常量使用Symbol 值，其他值不可能有相同的值。
+作为对象的属性名，使用时，加[]。
+作为 消除魔术字符串。
+对象的属性名，字符串，Symbol值。
+以Symbol值作为名称的属性，不会被常规方法遍历得到。可以利用该特性，为对象定义，非私有、但只希望只用于内部的方法。
+
+Symbol类型值的登记机制。
+全局环境，Symbol.for(), Symbol.keyFor()，返回一个已登记的Symbol类型值的key。
+
