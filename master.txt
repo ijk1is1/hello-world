@@ -62,3 +62,17 @@ before 4/7.
 js 
 
 
+7-02
+finished a part of lesson
+
+7-03
+do one's best to finished the demo.
+
+7-04
+react-native demo.
+
+7-05
+react-native demo DouBandemo-easy finished.
+2018-07-05 10:08:57.
+
+
