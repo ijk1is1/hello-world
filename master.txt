@@ -74,5 +74,21 @@ react-native demo.
 7-05
 react-native demo DouBandemo-easy finished.
 2018-07-05 10:08:57.
+Cha 3 js finished.
 
+plan zhenjishipin. js&node.js...
+nuli
+
+7-06
+node.js
+js chap4. continueing...
+
+
+7-07
+js chap5
+
+7-08
+js chap6.7
+node chap3
+e market review
 
