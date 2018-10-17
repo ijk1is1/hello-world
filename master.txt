@@ -123,3 +123,10 @@ The last day in the school before leaving the school.
     git diff (--cached)
 
     amend revert merge 目前遇到的会有命令行外信息的。
+
+
+18号开始，
+    css变幻之美， css3
+    录播视频
+    js模式，js指南，高性能的复习。
+    找工作。
