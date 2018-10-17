@@ -99,7 +99,27 @@ review
 
 7-15
 The last day in the school before leaving the school.
-原一生坦途
+愿一生坦途
 
 10-17
 又一次捡起来，继续前行
+
+半天没有push到 远程仓库，因为没学明白。
+重新看了 git本地操作。
+
+版本控制系统，
+工作区，历史记录，暂存区
+    blob ,tree, commit, tag对象。 工作区的对象库。
+	hash 40位
+围绕 HEAD引用， 分支 branch，历史提交 (链条)
+    git checkout
+        git checkout -b
+
+
+    git rebase操作，维护链式历史提交
+    git reflog
+    git reset --hard --mixed --soft
+
+    git diff (--cached)
+
+    amend revert merge 目前遇到的会有命令行外信息的。
